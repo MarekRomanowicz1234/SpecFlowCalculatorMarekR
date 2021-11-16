@@ -7,7 +7,8 @@ Link to a feature: [Calculator](SpecFlowCalculatorMarekR.Specs/Features/Calculat
 
 @mytag
 Scenario: Add two numbers
-	Given the first number is 50
+	Given the first number is 60
 	And the second number is 70
+	And the third number is 80
 	When the two numbers are added
-	Then the result should be 120
+	Then the result should be 210

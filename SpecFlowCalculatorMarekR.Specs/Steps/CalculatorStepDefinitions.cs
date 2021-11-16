@@ -31,6 +31,12 @@ namespace SpecFlowCalculatorMarekR.Specs.Steps
             _calculator.SecondNumber = number;
         }
 
+        [Given(@"the third number is (.*)")]
+        public void GivenTheThirdNumberIs(int number)
+        {
+            _calculator.ThirdNumber = number;
+        }
+
         [When("the two numbers are added")]
         public void WhenTheTwoNumbersAreAdded()
         {
